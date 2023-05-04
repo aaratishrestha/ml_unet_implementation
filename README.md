@@ -15,6 +15,8 @@ Google Colab was used to build the project. In order to run the implementation f
 - You can either upload it directly into the colab or on your google drive. 
 - Add the path/link of the dataset to `zip_file_path` variable. 
     - If you have uploaded the zipped file on the google drive mount google drive or else it is not needed.
-       
+ 
+ 
+ Here is the link of [pre-trained model](https://drive.google.com/file/d/1EOliq1n-_0S6xBqlLMyvZzmeFlONn_1U/view?usp=sharing) for the tumor segmentation. It requires 3 input channels, 1 output channel, and 48 features in the first layer.
     
 
