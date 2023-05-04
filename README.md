@@ -1,11 +1,20 @@
-# ml_unet_implementation
-This repository contains the code for my project in the Advanced Topics in Machine Learning course, where I have implemented the U-Net architecture.
+# U-Net Implemention for Brain Tumor Segmentation
+This repository contains implementation of U-Net architecture for brain tumor image segmentation created as part of project work for the Advanced Topics in Machine Learning course[ITI41820-1 23V] as a requirement for Master's in Applied Computer Science Program at Østfold University College.
 
-Dataset Link: https://drive.google.com/file/d/1YiU8rFyePAHl6B_xyXCuq0XbOlJ3fkjv/view?usp=share_link
+## Dataset
+The project has utilized the LGG Segmentation dataset, which is a publicly available dataset from The Cancer Imaging Archive (TCIA) and comprises data from 110 patients included in The Cancer Genome Atlas (TCGA) lower-grade glioma collection. The dataset is a pruned version of the [original dataset](https://www.kaggle.com/datasets/mateuszbuda/lgg-mri-segmentation) from kaggle.
 
-I have used Google Colab to build the project. 
+Link to the dataset used for the project: https://drive.google.com/file/d/1YiU8rFyePAHl6B_xyXCuq0XbOlJ3fkjv/view?usp=share_link
 
-Steps to run the project:
-1. Upload the .ipynb file to google colab.
-2. Download the [dataset](https://drive.google.com/file/d/1YiU8rFyePAHl6B_xyXCuq0XbOlJ3fkjv/view?usp=share_link). You can either upload it directly into the colab or on the google drive and add the path/link of the dataset to `zip_file_path` variable. If you have uploaded the zipped file on the google drive mount google drive or else it is not needed.
+
+
+## Steps to run the project:
+Google Colab was used to build the project. In order to run the implementation follow the given steps:
+- Clone the repo and upload the .ipynb file from the project to google colab.
+- Download the [dataset](https://drive.google.com/file/d/1YiU8rFyePAHl6B_xyXCuq0XbOlJ3fkjv/view?usp=share_link). 
+- You can either upload it directly into the colab or on your google drive. 
+- Add the path/link of the dataset to `zip_file_path` variable. 
+    - If you have uploaded the zipped file on the google drive mount google drive or else it is not needed.
+       
+    
 
